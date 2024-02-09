@@ -1,0 +1,562 @@
+<!DOCTYPE html> <!--Declares document type-->
+
+<html lang="en"> <!--Contains all HTML-->
+    <head><!--backend-->
+        <title>Gallery</title> <!--Page title-->
+
+        <!--External links-->
+        <link rel="stylesheet" href="CSS/MainStyling.css" type="text/css"> <!--CSS-->
+        
+
+        <!-- Boostrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Boostrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap Carousel-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!--Meta data-->
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Samantha Dejah Kitchener"><!--your name here-->
+    <meta name="description" content="UI designer and UX developer portfolio"><!--small disription of website-->
+    <meta name="keywords" content="portfolio, ui design, ux developer, artist, art, makeup artist, SFX, illustrator"> <!--keywords describing the website-->
+
+    <style>
+		body {
+			background-image: url('Media/Images/back1.jpg'); 
+			background-repeat: no-repeat;
+		}
+
+	</style>
+        
+    </head>
+    
+
+    <body id="BG"> <!--Front end-->
+    
+        <header >
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-12 text-center box">
+                        <div class="logo"><!-- Logo -->
+                            <img src="Media/Icons/MyLogo.png" alt="Logo" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <nav>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center head">
+                            <ul class="links">
+                               <li><a href="Index.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="Gallery.html">Portfolio</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                                <li><a href="Socials.html">Socials</a></li>
+                            </ul>
+                           
+                        </div>
+                    </div>
+                </div>
+        
+            </nav>
+        </header>
+        
+       
+        
+        <main >
+<br><br><br><br>
+          <div class="container-fluid">    <!-- Section buttons -->
+          
+                <div class="row ">
+                    <div class="col-md-6 text-center ">
+                            <a href="#section1" ><button class="My-Button"><h1 class="Button-color">My IMDB</h1><br><h4 class="Button-color">Jump to section</h4></button></a>
+                    </div>
+                     <div class="col-md-6 text-center ">
+                            <a href="#section2"><button class="My-Button"><h1 class="Button-color">My Digital illustrations</h1><br><h4 class="Button-color">Jump to section</h4></button></a>
+                    </div>
+                </div>    
+                    <div class="row ">
+                     <div class="col-md-6 text-center ">
+                            <a href="#section3"><button class="My-Button"><h1 class="Button-color">My traditional art</h1><br><h4 class="Button-color">Jump to section</h4></button></a>
+                    </div>
+                     <div class="col-md-6 text-center ">
+                            <a href="#section4"><button class="My-Button"><h1 class="Button-color">My Makeup and SFX</h4><br><h4 class="Button-color">Jump to section</h4></button></a>
+                    </div>
+                </div> 
+            <br><br><br><br><br><br>
+                <!--Slider-->
+            <div class="container-fluid"> 
+                <div class="row">    
+                    <div class="col-md-12 text-center IMBD-img">
+                        <ul >
+                                <li><a name="section1" href="https://www.imdb.com/name/nm9307364/" target="_blank"><img src="Media/icons/imdb.png" alt="IMDB" ></a></li> 
+                        </ul> 
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">  
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                                
+                            </ol>      
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="Media/Images/movie1.png" alt="" class="CarImage">
+                                </div>
+                                <div class="item">
+                                    <img src="Media/Images/movie2.png" alt="" class="CarImage">
+                                </div>
+                                <div class="item">
+                                    <img src="Media/Images/movie3.png" alt="" class="CarImage">
+                                </div>
+                                <div class="item">
+                                    <img src="Media/Images/movie4.png" alt="" class="CarImage">
+                                </div>
+                                <div class="item">
+                                    <img src="Media/Images/movie5.jpg" alt="" class="CarImage">
+                                </div>
+
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                
+                                <span class="sr-only">Previous</span>
+                            </a>
+           
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                
+                                <span class="sr-only">Next</span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+           <!--Gallery-->
+             <br><br><br><br><br><br>
+             <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-md-12 text-center title">     <!-- Digital art -->
+                    
+                       <h1 class="text-pop-up-top"><a name="section2">Digital Illustrations</a></h1>
+                        <br><br> 
+                    </div>
+                </div> 
+            <div class="container-fluid">
+                <div class="row">
+                     <div class="col-md-3 ">
+                     <a>
+                       <img src="Media/Images/37.jpg" alt="icecream poster" class="GalleryImage2">
+                        <span>Vintage icecream poster</span>
+                      </a>
+                    </div>
+                   <div class="col-md-3">
+                   <a>
+                        <img src="Media/Images/25.jpg" alt="music poster" class="GalleryImage">
+                         <span>Music poster</span>
+                      </a>
+                    </div> 
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/16.jpg" alt="gaming poster" class="GalleryImage">
+                         <span>untitled goose game poster</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/24.jpg" alt="movie poster" class="GalleryImage5">
+                         <span>Jurassic park poster</span>
+                      </a>
+                    </div>     
+                </div>
+               
+                <div class="row ">
+                    
+                      <div class="col-md-3">
+                      <a>
+                        <img src="Media/Images/icon.png" alt="camera icon" class="GalleryImage6">
+                         <span>Camera icon</span>
+                      </a>
+                    </div>
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/icon2.png" alt="keys icon" class="GalleryImage6">
+                         <span>Keys icon</span>
+                      </a>
+                    </div>
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/icon3.png" alt="Printer icon" class="GalleryImage6">
+                         <span>Printer icon</span>
+                      </a>
+                    </div>
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/17.jpg" alt="motivational poster" class="GalleryImage3-5">
+                         <span>Motivational poster</span>
+                      </a>
+                    </div> 
+                    
+                </div>     
+                 <div class="row ">
+                    
+                    <div class="col-md-9">
+                      <a>
+                        <img src="Media/Images/icons.png" alt="2D icons" class="GalleryImage6">
+                         <span>2D icons</span>
+                      </a>
+                    </div>
+                   
+                    
+                </div>     
+            </div>
+             <br><br><br><br><br><br><br>
+            <div class="container-fluid">      <!-- Traditional art-->
+                <div class="row ">
+                    <div class="col-md-12 text-center title">
+                        <h1 class="text-pop-up-top"><a name="section3">traditional art</a></h1>
+                
+                        <br><br> 
+                    </div>
+                </div> 
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/1.jpg" alt="elephant drawing" class="GalleryImage">
+                       <span>Elephant drawing</span>
+                      </a>
+                    </div>  
+                   <div class="col-md-3">
+                   <a>
+                        <img src="Media/Images/27.jpg" alt="Japanese house" class="GalleryImage">
+                       <span>Japanese house</span>
+                      </a>
+                    </div> 
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/28.jpg" alt="japanese street" class="GalleryImage">
+                       <span>Japanese street</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/15.jpg" alt="heart" class="GalleryImage">
+                         <span>heart drawing</span>
+                      </a>
+                    </div>   
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/21.jpg" alt="line art coke tin" class="GalleryImage">
+                       <span>coke tin line art</span>
+                      </a>
+                    </div>  
+                   <div class="col-md-3">
+                   <a>
+                        <img src="Media/Images/23.jpg" alt="glass" class="GalleryImage">
+                       <span>freehand glass drawing</span>
+                      </a>
+                    </div> 
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/18.jpg" alt="pug" class="GalleryImage">
+                       <span>pug drawing</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/32.jpg" alt="teddybear painting" class="GalleryImage">
+                         <span>Teddybear painting</span>
+                      </a>
+                    </div>   
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/13.jpg" alt="alien in a pug suit" class="GalleryImage">
+                       <span>alien in a pug suit</span>
+                      </a>
+                    </div>  
+                   <div class="col-md-3">
+                   <a>
+                        <img src="Media/Images/31.jpg" alt="alien in a pug suit" class="GalleryImage">
+                       <span>alien in a pug suit sculpture</span>
+                      </a>
+                    </div> 
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/29.jpg" alt="alien in a pug suit" class="GalleryImage">
+                       <span>alien in a pug suit painting</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/30.jpg" alt="rabbit painting" class="GalleryImage">
+                         <span>rabbit painting</span>
+                      </a>
+                    </div>   
+                </div>
+            </div>
+
+            <br><br><br><br><br><br><br>    <!-- makeup and sfx-->
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-md-12 text-center title">
+                        <h1 class="text-pop-up-top"><a name="section4">Makeup and SFX</a></h1>
+                        <br><br> 
+                    </div>
+                </div> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/2.jpg" alt="cut sfx" class="GalleryImage">
+                       <span>infected cut SFX</span>
+                      </a>
+                    </div>  
+                   
+                   <div class="col-md-3">
+                   <a>
+                        <img src="Media/Images/6.jpg" alt="body painting" class="GalleryImage">
+                       <span>body painting</span>
+                      </a>
+                    </div>  
+
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/9.jpg" alt="accident victim sfx" class="GalleryImage">
+                       <span>accident victim sfx</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/5.jpg" alt="Zombie bite" class="GalleryImage">
+                         <span>Zombie bite SFX</span>
+                      </a>
+                    </div>   
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/11.JPG" alt="clown face paint" class="GalleryImage">
+                       <span>clown face paint</span>
+                      </a>
+                    </div>  
+
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/43.jpg" alt="ripped off finger sfx" class="GalleryImage">
+                       <span>ripped off finger sfx</span>
+                      </a>
+                    </div>  
+                   
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/41.jpg" alt="zombie makeup sfx" class="GalleryImage">
+                       <span>bleeding zombie SFX</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/40.jpg" alt="kabuki mask SFX" class="GalleryImage">
+                         <span>Kabuki mask SFX</span>
+                      </a>
+                    </div>   
+                </div>
+            </div>
+            <br><br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/38.jpg" alt="busted knuckles sfx" class="GalleryImage">
+                       <span>busted knuckles sfx</span>
+                      </a>
+                    </div>  
+
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/12.jpg" alt="Broken nose SFX" class="GalleryImage">
+                       <span>Broken nose SFX</span>
+                      </a>
+                    </div>  
+                   
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/42.jpg" alt="woman with a beard SFX" class="GalleryImage">
+                       <span>woman with a beard SFX</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/4.jpg" alt="Drag Queen " class="GalleryImage">
+                         <span>drag Queen</span>
+                      </a>
+                    </div>   
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/63.jpg" alt="Theartical hobo" class="GalleryImage">
+                       <span>Theartical hobo makeup</span>
+                      </a>
+                    </div>  
+
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/61.jpg" alt="futuristic body paint" class="GalleryImage">
+                       <span>futuristic bodypaint</span>
+                      </a>
+                    </div>  
+                   
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/19.jpg" alt="harvey dent body paint" class="GalleryImage">
+                       <span>harvey dent body paint</span>
+                      </a>
+                    </div>  
+                    <div class="col-md-3">
+                    <a>
+                        <img src="Media/Images/1111.jpg" alt="bubbly makeup " class="GalleryImage">
+                         <span>bubbly makeup</span>
+                      </a>
+                    </div>   
+                </div>
+            </div>
+            <br><br>
+            <div class="container-fluid">     <!-- videos -->
+                <div class="row">    
+                    <div class="col-md-6 text-center ">
+                        <video src="Media/Videos/busted.mp4" controls autoplay></video>
+                    </div> 
+                    <div class="col-md-6 text-center ">
+                        <video src="Media/Videos/cut.mp4" controls autoplay></video>
+                    </div>  
+                </div>
+            </div>    
+        </main>
+        
+        <br><br><br><br><br><br>
+
+       <footer class="footer-container">
+        
+
+            <div class="container-fluid"><br><br>
+                <div class="row">
+                      
+                    <div class="col-md-5 text-center">
+                        <div>
+                            <h1>Samantha Dejah Kitchener</h1>
+                           <p>
+                           <br><br>
+                                I am a creatively inspired ui Designer and UX developer.
+                                <!--small one setence deiscription of website-->
+                                <br><br>
+                                2023 © DejahsDayDreams<!--site name here--> Ltd.
+                           </p>
+                        </div>
+                    </div>       
+
+
+                    <!--Social media-->
+                    <div class="col-md-5 ">
+                        <div class="social-menu">
+                            <h1>Follow us</h1>
+                            <br><br><br><br><br>
+                            <ul>
+                                <li><a href="https://www.facebook.com" target="_blank"><img src="Media/Icons/facebook.png" alt="Facebook"></a></li>
+                                <li><a href="https://www.instagram.com" target="_blank"><img src="Media/Icons/instagram.png" alt="Instagram"></a></li>
+                                <li><a href="https://www.linkedin.com" target="_blank"><img src="Media/icons/linkedin.png" alt="linkedin"></a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-2 text-center footer-links">  
+                        <div><br>
+                             <h1>Useful Links</h1>
+                        </div>
+                        <ul>
+                            <li><a href="About.html">My skills</a></li>
+                            <li><a href="Gallery.html">Portfolio</a></li>
+                            <li><a href="About.html">About me</a></li>
+                            <li><a href="Contact.html">Contact us</a></li>
+                        </ul>
+                </div> 
+
+           <br> <br> <br>
+            
+        </footer>
+        <div >
+                <div class="row">
+                    <div class="container">
+                    
+                        <div class="col-md-12">   <!-- back to top -->
+                            <div>
+                                
+
+                                <button onclick="BackToTop()" id="Btn" title="Back to top" > Go To Top</button>
+
+                                <script>
+                                    MyButton = document.getElementById("Btn");
+
+                                    window.onscroll = function() {ScrollCheck() };
+                                    
+                                    function ScrollCheck() 
+                                    {
+                                        if(document.body.scrollTop > 700 || document.documentElement.scrollTop > 700)
+                                        {
+                                            MyButton.style.display = "Block";
+                                        }
+
+                                        else
+                                        {
+                                            MyButton.style.display = "none";
+                                        }
+                                    }
+
+                                    function BackToTop()
+                                    {
+                                        document.body.scrollTop = 0;
+                                        document.documentElement.scrollTop = 0;
+                                    }
+
+                                </script>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+  
+    </body>
+</html>
